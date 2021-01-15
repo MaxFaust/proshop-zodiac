@@ -1,4 +1,4 @@
 {
-    "editor.formatOnSave": true,
-    "js/ts.implicitProjectConfig.checkJs": true
+	"editor.formatOnSave": true,
+	"js/ts.implicitProjectConfig.checkJs": true
 }

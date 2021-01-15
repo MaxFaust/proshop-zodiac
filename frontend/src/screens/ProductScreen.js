@@ -20,7 +20,6 @@ const ProductScreen = ({ history, match }) => {
 	const [qty, setQty] = useState(1)
 	const dispatch = useDispatch()
 
-	// @ts-ignore
 	const productDetails = useSelector((state) => state.productDetails)
 	const { loading, error, product } = productDetails
 
@@ -85,11 +84,10 @@ const ProductScreen = ({ history, match }) => {
 									<ListGroup.Item>
 										<Row>
 											<Col>Qty</Col>
-											<Col>
+											<Col md='auto'>
 												<Form.Control
 													as='select'
 													value={qty}
-													// @ts-ignore
 													onChange={(e) => setQty(e.target.value)}
 												>
 													{[...Array(product.countInStock).keys()].map((x) => (
