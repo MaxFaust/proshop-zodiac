@@ -9,7 +9,7 @@ import { listProducts, deleteProduct } from "../actions/productActions"
 const ProductListScreen = ({ history, match }) => {
 	const dispatch = useDispatch()
 
-	const productList = useSelector((state) => state.userList)
+	const productList = useSelector((state) => state.productList)
 	const { loading, error, products } = productList
 
 	const productDelete = useSelector((state) => state.productDelete)
