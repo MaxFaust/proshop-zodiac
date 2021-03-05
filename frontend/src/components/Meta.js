@@ -14,7 +14,7 @@ const Meta = ({ title, description, keywords }) => {
 Meta.defaultProps = {
 	title: "Welcome To Lettus",
 	description: "Support local purveyors",
-	keywords: "CSA, farm, farmers market",
+	keywords: "CSA, farm, farmers market, community, supported, agriculture",
 }
 
 export default Meta
